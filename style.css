@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(31, 30, 36);
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(31, 30, 36);
+
+}
+
+.containerin {
+    background-color: rgb(31, 30, 36);
+    width: 90%;
+    height: 20%;
+    color: aliceblue;
+    position: fixed;
+}
+
+.containerdow {
+    background-color: rgb(31, 30, 36);
+    width: 90%;
+    height: 100%;
+    color: aliceblue;
+    margin-top: 15%;
+}
+
+h3 {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: 0.9em;
+}
+
+.kissbot {
+    border-bottom: 1px solid rgb(67, 66, 72);
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.kissbot_perfil {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 1.8em;
+}
+
+.kissbot_perfillis {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    border-bottom: 1px solid rgb(67, 66, 72);
+    justify-content: space-between;
+}
+
+.kissbot_perfillis_in {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    width: 400px;
+}
+
+.btn_np {
+    height: 40px;
+    width: 130px;
+    background-color: rgb(66, 143, 220);
+    border-radius: 5px;
+    border: 0;
+    color: aliceblue;
+}
+
+.kissbot_perfil1-5 {
+    display: flex;
+    font-size: 1.4em;
+}
+
+.kissbot_perfil2 {
+    border-bottom: 1px solid rgb(67, 66, 72);
+    height: 80px;
+    display: flex;
+    font-size: 1.4em;
+    justify-content: right;
+    background-color: rgb(31, 30, 36);
+}
+
+.perfil {
+    background-color: aqua;
+    height: 80px;
+    width: 80px;
+    border-radius: 15%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5 em;
+}
+
+/* perfil da lista */
+.perfillis {
+    background-color: aqua;
+    height: 40px;
+    width: 40px;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+/* ------------------- */
+/* icone cadeado */
+/* ---------------------------- */
+.material-icons-outlined {
+    color: rgb(93, 92, 97);
+    font-size: 0.8em;
+    margin-top: 8px;
+
+}
+
+/* ---------------------------- */
+/* input de pesquisa */
+.input {
+    width: 290px;
+    outline: none;
+    border: 2px solid rgb(96, 95, 101);
+    background: rgb(51, 50, 56);
+    padding: 6px;
+    height: 38px;
+    border-radius: 5px;
+    padding-left: 40px;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+/* ---------------------------- */
+/* titulo */
+.titulo {
+    font-size: 0.7em;
+}
+
+/* ------------ */
+/* estrela */
+.material-icons-outlined.is {
+    color: rgb(238, 255, 0);
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.material-icons-outlined {
+    font-size: 1.3em;
+
+    cursor: pointer;
+}
+
+/* ---------------------- */
+.hours {
+    color: rgb(93, 92, 97);
+
+}
+
+.cabeca {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    color: rgb(93, 92, 97);
+    font-size: 1em;
+
+}
+
+.role {
+    border: 2px solid rgb(93, 92, 97);
+    border-radius: 15px;
+    font-size: 0.5em;
+    margin-left: 5px;
+    color: rgb(93, 92, 97);
+    padding: 5px;
+}
